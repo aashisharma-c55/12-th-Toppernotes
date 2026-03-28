@@ -110,16 +110,15 @@ justify-content:space-around;
 #box1 h1{
     font-weight:600;
     color:rgb(62, 87, 62);
-    font-size:20px;
-    margin: 30px 30px;
-    size:40px;
+    font-size:40px;
+    margin: 20px 10px;
+    
 }
 #box1 p{
     font-size:xx-large;
     margin: 30px 30px;
     font-weight: lighter;
-    
-
+    size:40px;
 }
 #box2{
     height:95%;
