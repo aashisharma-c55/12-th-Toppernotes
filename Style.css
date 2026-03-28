@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(197, 205, 230);
+}
+#main{
+    height: 100%;
+    width: 100%;
+    
+}
+#header{
+    position: fixed;/* position is fixed of header*/
+    height: 13%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(236, 236, 199);
+    
+}
+#logo{
+    height: 70%;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text{
+    color: rgb(11, 11, 94);
+    display: flex;
+}
+.text:hover{
+    color: rgb(39, 170, 217);
+    
+}
+#contactdetails
+{
+    font-weight: lighter;
+    color: rgb(4, 4, 93);
+}
+#contactdetails:hover{
+color: rgb(72, 130, 151);
+}
+.icons{
+    padding: 10px;
+    border-radius: 50%;
+}
+.icons:hover{
+background-color: lightblue;
+}
+#login{
+    display: flex;
+    border-radius: 50px;
+    padding: 10px; ;    
+}
+#login:hover{
+    background-color: lightblue;
+}
+#try{
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+}
+#try:hover{
+    background-color: rgb(9, 66, 9);
+}
+#fakeheader{
+    height: 13%;
+    width: 100%;
+    background-color: rgb(232, 233, 209);
+}
+#page1{
+    height: 87%;
+    width: 100%;
+    background-color: Deep Midnight rgb(139, 139, 234);
+
+}
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color:rgb(107, 151, 126);
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#strip u{
+    font-weight: lighter;
+    margin-left: 20px;}
+#content{
+width: 100%;
+height: 76%;
+display: flex;
+align-items: center;
+justify-content:space-around;
+}
+#box1{
+    height: 95%;
+    width: 47%;
+    background-color: darkcyan;
+    margin: 10px;
+}
+#box1 h1{
+    font-weight:600;
+    color:rgb(62, 87, 62);
+    font-size:60px;
+    margin: 30px 30px;
+    size: 50px;
+}
+#box1 p{
+    font-size:xx-large;
+    margin: 30px 30px;
+    font-weight: lighter;
+
+}
+#box2{
+    height:95%;
+    width:47%;
+    background-color: blueviolet;
+    margin: 10px;
+}
+#box2 img{
+    object-fit: cover;
+    height:100%;
+    width:100%
+}
+#heading{
+    height:16% ;
+    width: 100%;
+    background-color: rgb(166, 198, 187);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(46, 46, 102);
+    
+}
+#heading h1{
+    font: weight 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn1{
+    padding: 10px 20px;
+    color: white;
+    background-color:lightblue ;
+    width: 23%;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+#btn1:hover{
+    background-color:rgb(90, 159, 181) ;
+}
+#btn2{
+    padding: 10px 20px;
+    color:lightblue ;
+    border: 1px solid lightblue;
+    width:23%;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+#btn2:hover{
+    background-color: rgb(100, 145, 160);
+    color:rgb(20, 59, 72) ;
+}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* FULL SCREEN SECTION */
+        .stream-section {
+            width: 100%;
+            min-height: 100vh;
+            background: #f5f5f5;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* HEADING */
+        .stream-section h2 {
+            font-size: 36px;
+            margin-bottom: 50px;
+            background: #eaeaea;
+            padding: 10px 30px;
+            border-radius: 30px;
+        }
+
+        .stream-section h2 span {
+            color: #e91e63;
+        }
+
+        /* CARDS CONTAINER */
+        .cards {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        /* CARD */
+        .card {
+            background: white;
+            width: 300px;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        /* TAG */
+        .tag {
+            position: absolute;
+            top: -12px;
+            left: 20px;
+            background: #ff4d4d;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+        }
+
+        /* IMAGE */
+        .card img {
+            width: 70px;
+            margin: 20px 0;
+        }
+
+        /* TITLE */
+        .card h3 {
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+
+        /* BUTTON */
+        .card button {
+            background: teal;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .card button:hover {
+            background: #006666;
+        }
+================= MOBILE RESPONSIVE FIX =================
+@media (max-width: 768px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    /* HEADER FIX */
+    #header{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .text{
+        font-size: 12px;
+        margin: 5px;
+    }
+
+    #contactdetails{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    /* CONTENT STACK */
+    #content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* BOXES FULL WIDTH */
+    #box1, #box2{
+        width: 100%;
+        height: auto;
+    }
+
+    /* TEXT FIX */
+    #box1 h1{
+        font-size: 28px;
+        text-align: center;
+        margin: 15px;
+    }
+
+    #box1 p{
+        font-size: 16px;
+        text-align: center;
+        margin: 15px;
+        line-height: 1.5;
+    }
+
+    /* IMAGE FIX */
+    #box2 img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* BUTTON FIX */
+    #btns{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #btn1, #btn2{
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    /* HEADING FIX */
+    #heading h1{
+        font-size: 22px;
+    }
+}
