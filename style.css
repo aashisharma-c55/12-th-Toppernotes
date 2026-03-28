@@ -112,7 +112,7 @@ justify-content:space-around;
     color:rgb(62, 87, 62);
     font-size:60px;
     margin: 30px 10px;
-    size:30px;
+    size:40px;
 }
 #box1 p{
     font-size:xx-large;
@@ -271,76 +271,3 @@ justify-content:space-around;
         .card button:hover {
             background: #006666;
         }
-================= MOBILE RESPONSIVE FIX =================
-@media (max-width: 768px){
-
-    body{
-        overflow-x: hidden;
-    }
-
-    /* HEADER FIX */
-    #header{
-        flex-wrap: wrap;
-        height: auto;
-        padding: 10px;
-        justify-content: center;
-    }
-
-    .text{
-        font-size: 12px;
-        margin: 5px;
-    }
-
-    #contactdetails{
-        font-size: 12px;
-        text-align: center;
-    }
-
-    /* CONTENT STACK */
-    #content{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    /* BOXES FULL WIDTH */
-    #box1, #box2{
-        width: 100%;
-        height: auto;
-    }
-
-    /* TEXT FIX */
-    #box1 h1{
-        font-size: 28px;
-        text-align: center;
-        margin: 15px;
-    }
-
-    #box1 p{
-        font-size: 16px;
-        text-align: center;
-        margin: 15px;
-        line-height: 1.5;
-    }
-
-    /* IMAGE FIX */
-    #box2 img{
-        width: 100%;
-        height: auto;
-    }
-
-    /* BUTTON FIX */
-    #btns{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #btn1, #btn2{
-        width: 80%;
-        margin: 10px 0;
-    }
-
-    /* HEADING FIX */
-    #heading h1{
-        font-size: 22px;
-    }
-}
