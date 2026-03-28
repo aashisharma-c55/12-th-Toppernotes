@@ -111,13 +111,14 @@ justify-content:space-around;
     font-weight:600;
     color:rgb(62, 87, 62);
     font-size:60px;
-    margin: 30px 10px;
-    size:10px;
+    margin: 30px 30px;
+    size:40px;
 }
 #box1 p{
     font-size:xx-large;
     margin: 30px 30px;
     font-weight: lighter;
+    
 
 }
 #box2{
